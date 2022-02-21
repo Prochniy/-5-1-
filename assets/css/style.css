@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+  background-color: #010008;
+  max-width: 1920px;
+  width: 100%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.header {
+  display: flex;
+}
+.form-speak {
+  display: flex;
+  align-items: center;
+}
+select-speak {
+  display: block;
+  white-space: pre;
+  background-color: #010008;
+  cursor: pointer;
+  border-style: #010008;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 0.94;
+  border: none;
+}
+.sekecr-speak:hover {
+  background-color: #006262;
+}
