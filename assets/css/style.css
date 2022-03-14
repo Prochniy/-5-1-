@@ -37,3 +37,48 @@ select-speak {
 .sekecr-speak:hover {
   background-color: #006262;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.in-link {
+  color: #e7aa19;
+}
+.nav__link {
+  height: 17px;
+  font-size: 18px;
+  line-height: 17px;
+}
+.nav__link:nth-child(4) {
+  color: #e7aa19;
+}
+.in-link {
+  width: 112px;
+  background-image: url(../pictures/spac-mini.png);
+  background-repeat: no-repeat;
+  background-position: 80% 100%;
+  background-size: 20%;
+}
+.in-link:hover {
+  transform: scale(1.2);
+}
+.link {
+  display: block;
+  background-color: #010008;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.nav__link:not(.in-linl):not(:nth-child(4)):hover {
+  text-decoration: none;
+  border-left: 2px solid #eb1506;
+  border-bottom: 2px solid #eb1506;
+}
+.button {
+}
+.buttom__linl-left {
+}
+.buttom__linl-right {
+}

@@ -1,43 +1,687 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Топ 5 акций</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="logo">
-          <a href="" class="logo__link">
-            <img src="assets/pictures/Untitled222 (1).png" alt="logo" />
-          </a>
-        </div>
-        <form class=form-speak ">
-          <label><img src="assets/pictures/flag.png" alt="flag" /></label>
 
-          <select class="select-speak ">
-            <option value="1" class="icon-speak ">
-             RU
-            </option>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Топ 5 акций</title>
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/media-query.css">
 
-           
-            </option>
-          </select>
-        </form>
-        <nav>
-          <a class="nav__link link" href="#"></a>
-          <a class="nav__link link" href="#"></a>
-          <a class="nav__link link" href="#"></a>
-          <a class="nav__link link" href="#"></a>
-        </nav>
-        <div class="button">
-          <a class="buttom__linl-left link" href="#"></a>
-          <a class="buttom__linl-right link" href="#"></a>
-        </div>
-      </header>
-    </div>
-  </body>
+	<link rel="shortcut icon" href="assets/pictures/favicon.png" type="image/png" />
+</head>
+
+
+<body>
+	<div class="page">
+		<header class="header">
+
+			<div class="logo">
+				<a class="logo__link" href="#">
+					<img class="logo__images" src="assets/pictures/Untitled2221.png" alt="logo" />
+				</a>
+			</div>
+			<form class="form-speak">
+				<label><img src="assets/pictures/flag.png" alt="flag" /></label>
+
+				<select class="select-speak">
+					<option value="1" class="icon-speak" label="RU">RU</option>
+					<option value="2" class="icon-speak" label="UA">UA</option>
+				</select>
+			</form>
+			<nav class="nav">
+				<a class="nav__link link" href="#">Тарифы</a>
+				<a class="nav__link link" href="#">Бонусы</a>
+				<a class="nav__link link" href="#">Реферальная</a>
+				<a class="nav__link in-link link" href="tel:8 (495) 212-16-71">Контакты</a>
+			</nav>
+
+
+			<form class="form__button" action="#">
+				<button class="l-button button-top">Войти</button>
+				<button class="r-button button-top">Открыть счет</button>
+			</form>
+
+		</header>
+
+		<header class="header-w">
+			<nav class="nav-w">
+
+				<input class="nav__check" type="checkbox" id="showmenu" />
+				<label class="nav__showmenu" for="showmenu">&#9776;</label>
+				<label class="nav__back" for="showmenu"></label>
+				<ul class="menu">
+					<li><a class="menu__item" href="#">Тарифы</a></li>
+					<li>
+						<a class="menu__item" href="#">Контакты</a>
+						<input class="menu__check" type="checkbox" id="menu2">
+						<label class="menu__showsub" for="menu2">&#9660;</label>
+						<ul class="menu__submenu">
+							<li><a class="menu__item" href="#">8 (495) 212-16-71</a></li>
+							<li><a class="menu__item" href="#"> <span class="footer__social">
+										<a class="social__link link" href="#"><img src="assets/pictures/iconInst.png" alt="inst"></a>
+										<a class="social__link link" href="#"><img src="assets/pictures/iconFeis.png" alt="feis"></a>
+										<a class="social__link link" href="#"><img src="assets/pictures/ikonVK.png" alt="vk"></a>
+										<a class="social__link link" href="#"><img src="assets/pictures/iconYahdex.png" alt="yd"></a>
+
+									</span></a></li>
+						</ul>
+					</li>
+					<li><a class="menu__item" href="#">Бонус</a></li>
+					<li><a class="menu__item" href="#">Руферальная</a></li>
+					<li><a class="menu__item" href="#">Other</a></li>
+				</ul>
+
+				<div class="logo-">
+					<a class="logo__link" href="#">
+						<img class="logo__images" src="assets/images/Untitled2221-320.png" alt="logo" />
+					</a>
+				</div>
+			</nav>
+
+			<form class="form__button" action="#">
+				<button class="l-button button-top">Войти</button>
+				<button class="r-button button-top">Открыть счет</button>
+			</form>
+		</header>
+
+		<main>
+
+			<section>
+				<div class="suptitle">
+					<div class="suptitle__container">
+						<div class="previev">
+							<ul class="pteviev__list">
+								<li>
+									<img class="previev__pic" src="assets/pictures/present.png" alt="present" />
+								</li>
+								<li>
+									<p class="previev__text litl-text s-text">
+										Стань милионером с Lider Classic
+									</p>
+									<p class="previev__text litl-text ss-text">
+										Открой счет,инвестируй в фонды Lider Classic и получи один
+										из 1000 000 000 ₽
+									</p>
+								</li>
+
+							</ul>
+						</div>
+						<h1 class="suptitle__title-h1">
+							ТОП-5 акций <br />
+							с доходностью до 10-30% <br />
+							уже в 2022 году
+						</h1>
+						<ul class="suptitle__list">
+							<li>Открытие брокерского счета за 5 минут без визита в офис</li>
+							<li>Доступ к ценным бумагам с любого устройства</li>
+							<li>Поддержка в чате 24/7</li>
+						</ul>
+						<form class="suptitle__button" action="#">
+							<p>
+								<button class="btn button-lift">
+									Cкачать топ 5 акций<img class="button-pic" src="assets/pictures/book.png" alt="book" />
+								</button>
+
+								<button class="btn button-right">Открыть счет</button>
+							</p>
+						</form>
+
+						<div class="suptitle__pic">
+							<img class="pic-w pic-images2" src="assets/pictures/Ellipse2.png" alt="foto" />
+							<img class="pic-w pic-images3" src="assets/pictures/Ellipse3.png" alt="foto" />
+							<img class="pic-w pic-images4" src="assets/pictures/Ellipse4.png" alt="foto" />
+							<p class="pic-text litl-text">
+								Сейчас инвестируют<br />
+								100 000 пользователей
+							</p>
+						</div>
+						<div class="suptitle__img"><span></span></div>
+						<h2 class="suptitle__title-h2 title-genl">
+							Ваши деньги <br />
+							способны на большее
+						</h2>
+						<p class="suptitle__text text-genl">
+							Сколько бы вы заработали, инвестируй 100 000 ₽ <br />
+							год назад?
+						</p>
+						<div class="suptitle__box">
+							<div class="box__net">
+								<div class="poster">
+									<img src="assets/pictures/image1011.png" alt="poster" />
+								</div>
+								<p class="poster-green">83.97%</p>
+								<p class="poster-white">+72000₽</p>
+							</div>
+							<div class="box__net">
+								<div class="poster">
+									<img src="assets/pictures/image98.png" alt="poster" />
+								</div>
+								<p class="poster-green">+4.11%</p>
+								<p class="poster-white">+72000₽</p>
+							</div>
+							<div class="box__net">
+								<div class="poster">
+									<img src="assets/pictures/image96.png" alt="poster" />
+								</div>
+								<p class="poster-green">+26.36%</p>
+								<p class="poster-white">+72000₽</p>
+							</div>
+							<div class="box__net">
+								<div class="poster">
+									<img src="assets/pictures/image97.png" alt="poster" />
+								</div>
+								<p class="poster-green">+17.19</p>
+								<p class="poster-white">+72000₽</p>
+							</div>
+							<div class="box__net">
+								<div class="poster">
+									<img src="assets/pictures/image99.png" alt="poster" />
+								</div>
+								<p class="poster-green">+31.32</p>
+								<p class="poster-white">+72000₽</p>
+							</div>
+							<div class="box__net">
+								<div class="poster">
+									<img src="assets/pictures/image100.png" alt="poster" />
+								</div>
+								<p class="poster-green">+38.99</p>
+								<p class="poster-white">+72000₽</p>
+							</div>
+						</div>
+						<p class="suptitle__text text-genl">
+							И еще более 10 000 других ценных бумаг доступно в каталоге
+						</p>
+						<form class="suptitle__sked" action="#">
+							<p>
+								<button class="btn button">Получить каталог</button>
+							</p>
+						</form>
+					</div>
+				</div>
+
+
+			</section>
+			<!-- <div class="wrap"> -->
+			<section>
+				<div class="choice">
+					<h2 class="choice__title-h2 title-genl">
+						Большой выбор инструментов
+					</h2>
+
+					<div class="choice__container">
+						<div class="box__bag-tool">
+							<div class="bag-tool__img">
+								<img src="assets/pictures/a11.jpg" alt="for">
+							</div>
+							<h4 class="bag-tool__titli">Forex</h4>
+							<p class="bag-tool__text ">Trade 70 major,minor & exotic with compititive traiding conditions</p>
+						</div>
+						<div class="box__bag-tool">
+							<div class="bag-tool__img">
+								<img src="assets/pictures/a22.jpg" alt="for">
+							</div>
+							<h4 class="bag-tool__titli">Metals</h4>
+							<p class="bag-tool__text ">Trade metal commodities such as Gold,silver & Platinum. </p>
+						</div>
+						<div class="box__bag-tool">
+							<div class="bag-tool__img">
+								<img src="assets/pictures/a33.jpg" alt="for">
+							</div>
+							<h4 class="bag-tool__titli">Indeces</h4>
+							<p class="bag-tool__text ">Trade Major and Minor index CFDs sport and Futufes from around the globe.</p>
+						</div>
+						<div class="box__bag-tool">
+							<div class="bag-tool__img">
+								<img src="assets/pictures/a44.png" alt="for">
+							</div>
+							<h4 class="bag-tool__titli">Cryptocurrencies</h4>
+							<p class="bag-tool__text ">Trade Bitcoin,Ether,doge & more cripto & altcoin CFDs</p>
+						</div>
+						<div class="box__bag-tool">
+							<div class="bag-tool__img">
+								<img src="assets/pictures/a55.jpg" alt="for">
+							</div>
+							<h4 class="bag-tool__titli">Shores</h4>
+							<p class="bag-tool__text ">Hundreds of public companies from the US,UK,France & Germany available to
+								trade.
+							</p>
+						</div>
+						<div class="box__bag-tool">
+							<div class="bag-tool__img">
+								<img src="assets/pictures/a66.jpg" alt="for">
+							</div>
+							<h4 class="bag-tool__titli">Energies</h4>
+							<p class="bag-tool__text ">Discover opportunist on UK &us Crude Oil, as well as natureal gas Spot and
+								Future CFDs</p>
+						</div>
+
+					</div>
+					<div class="in-img"><a
+							href="https://iqbroker.co/lp/mobile/ru/?aff=97642&afftrack=GAD_SNG_RU_00_FTD_All_Web_15230611405_c_127980856965_kwd-326570149844&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6U53o3OC1uCDYss_fbSZ1oVHTeHwet2FLNHmjJCL62QNrEfr-auIQaAvCVEALw_wcB"><img
+								src="assets/pictures/imageM.jpg" alt="nk"></a>
+					</div>
+
+				</div>
+			</section>
+			<section>
+				<div class="step">
+					<h2 class="step__title-h2 title-genl">
+						Инвестиции доступные каждому
+					</h2>
+					<p class="step__text text-genl">
+						Простой сервис с подсказками и <br />
+						поддержкой 24/7 на каждом этапе
+					</p>
+					<div class="step__container">
+						<div class="step__box double-box">
+							<p class="step__step">Шаг 1</p>
+							<div class="step__box--content">
+								<p>
+									Заполнить<br />
+									регистрационную<br />
+									анкету
+								</p>
+							</div>
+							<p class="step__content">
+								Нужно указать основные данные о себе: имя, номер телефона,
+								e-mail и пароль для входа.
+							</p>
+						</div>
+						<div class="step__box-b double-box">
+							<p class="step__step">Шаг 2</p>
+							<div class="step__box--content">
+								<p>
+									Внести деньги <br />
+									на счет
+								</p>
+							</div>
+							<p class="step__content">
+								Вы можете использовать несколько платежных систем для
+								пополнения депозита, включая систему <br />
+								MidexPay и кошелек Bitcoin.
+							</p>
+						</div>
+						<div class="step__box-c double-box">
+							<p class="step__step">Шаг 3</p>
+							<div class="step__box--content">
+								<p>
+									Приступить <br />
+									к онлайн-трейдингу
+								</p>
+							</div>
+							<p class="step__content">
+								Сразу после пополнения депозита торговля через веб-терминал
+								или мобильную платформу будет доступна.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- </div> -->
+			<section>
+				<div class="try">
+					<h2 class="try__title title-genl">
+						Каждый достоин <br />
+						второго шанса
+					</h2>
+					<p class="try__text text-genl">
+						Купите свои первые акции без риска, мы вернем <br />
+						вам 100$ на счет в случае проигрыша
+					</p>
+					<form class="try__cked" action="#">
+						<p>
+							<button class="btn button">Получить бонус</button>
+							<button class="btn button-right">Открыть демо-счет</button>
+						</p>
+					</form>
+				</div>
+			</section>
+			<section>
+				<div class="new-wrapp">
+					<div class="benefits">
+						<h2 class="benefits__title title-genl">
+							100 000+ клиентов уже <br />
+							инвестируют с нами
+						</h2>
+						<div class="benefits__container">
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask1.png" alt="" />
+								<p class="benefits__texct z-text">
+									Представительство компании в Европе
+								</p>
+								<p class="benefits__content litl-text">
+									В разных странах мира компания открывает собсвенные
+									представительства.
+								</p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask2.png" alt="" />
+								<p class="benefits__texct z-text">
+									Мгновенный ввод и вывод средств
+								</p>
+								<p class="benefits__content litl-text">
+									0% комиссия с депозита
+								</p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask3.png" alt="" />
+								<p class="benefits__texct z-text">Кредитное плечо до 1:1000</p>
+								<p class="benefits__content litl-text"></p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask4.png" alt="" />
+								<p class="benefits__texct z-text">
+									Время выполнения заказа - 30 мс
+								</p>
+								<p class="benefits__content litl-text">
+									Средний показатель по отрасли - 500 мс
+								</p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask5.png" alt="" />
+								<p class="benefits__texct z-text">250 торговых инструментов</p>
+								<p class="benefits__content litl-text">
+									Валютные пары, акции, металлы, индексы, облигации
+								</p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask6.png" alt="" />
+								<p class="benefits__texct z-text">
+									Счета в евро, рублях, долларах США
+								</p>
+								<p class="benefits__content litl-text">
+									Пополните свой счет и сэкономьте на сборах за конвертацию
+								</p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask7.png" alt="" />
+								<p class="benefits__texct z-text">
+									15% бонус на первый депозит
+								</p>
+								<p class="benefits__content litl-text">
+									Может использоваться в торговле и во время просадки/p>
+								</p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+							<div class="benefits__box">
+								<img class="benefits__image" src="assets/pictures/Mask8.png" alt="" />
+								<p class="benefits__texct z-text">
+									Инновационная торговая платформа МТ5
+								</p>
+								<p class="benefits__content litl-text">
+									Доступно на IOS и Android
+								</p>
+								<p><a class="detail link" href="#">Подробнее...</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="case">
+					<div class="case__container">
+						<div class="case__control">
+							<img class="inner-img" src="assets/pictures/Ellipse29.png" alt="disk">
+							<div class="control__mark">
+
+								<p class="mark__text text-genl">Доходность</p>
+								<!-- TODO-->
+								<div class="slidecontainer">
+									<p class="mark__title title-genl">до <span id="demo"></span>%</p>
+									<p class="mark__litl-text litl-text">Низкий риск</p>
+									<input type="range" min="1%" max="100%" value="5%" class="slider" id="myRange">
+								</div>
+								<form class="nev-form" action="#">
+
+									<div class="radio2-2">
+										<input class="radiobtn" id="first-btn" type="radio" name="radiobtn" required checked="checked" />
+										<label class="label-btn" for="first-btn">Управляю деньгами сам</label>
+									</div>
+									<div class="radio1-2">
+										<input class="radiobtn" id="second-btn" type="radio" name="radiobtn" required />
+										<label class="label-btn" for="second-btn">Доверяю управление</label>
+									</div>
+								</form>
+
+							</div>
+							<!-- TODO-->
+
+
+						</div>
+
+						<div class="case__private">
+							<h2 class="private__title">
+								Подберите <span> индивидуальный инвестиционный</span>портфель
+							</h2>
+							<p class="private__text">
+								Покупайте российские и иностранные акции, облигации, валюту и
+								другие продукты в простом и удобном мобильном приложении для iOS
+								и Android
+							</p>
+							<form class="case__cked casebtn" action="#">
+								<p>
+									<button class="btn button">Получить портфель</button>
+								</p>
+							</form>
+						</div>
+					</div>
+
+					<div class="case__total">
+						<div class="total__box">
+							<p class="big-text">60 000</p>
+							<p class="litl-text">Активных инвесторов</p>
+						</div>
+						<div class="total__box-v">
+							<p class="big-text">150+</p>
+							<p class="litl-text">Торговых инструментов</p>
+						</div>
+						<div class="total__box-w">
+							<p class="big-text">183 000 USD</p>
+							<p class="litl-text">
+								Финансовый результат <br />
+								одного из инвесторов
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section>
+				<div class="order-phone">
+					<div class="order-phone__container">
+						<div class="order-phone__box">
+							<div class="order-phone__content">
+								<h2 class="order-phone__title title-genl">Инвестируй с телефона</h2>
+								<p class="order-phone__text">Покупайте российские и иностранные акции, облигации, валюту и другие
+									продукты в простом и удобном мобильном приложении для iOS
+									и Android.</p>
+							</div>
+							<div class="order-phone__img">
+								<img src="assets/pictures/all-devices.png" alt="phone">
+							</div>
+						</div>
+						<div class="fxpro__box">
+							<img src="assets/pictures/clean771.png" alt="cl">
+							<img src="assets/pictures/clean772.png" alt="cl">
+							<img src="assets/pictures/clean773.png" alt="cl">
+							<img src="assets/pictures/clean774.png" alt="cl">
+						</div>
+
+						<div class="order-pxone__reiterate-box">
+							<div class="reiterate-img">
+								<img src="assets/pictures/iPhone.png" alt="iph">
+							</div>
+							<div class="reiterate-content">
+
+								<h2 class="reiterate__title title-genl">Инвестируй с телефона</h2>
+								<p class="order-phone__text reiterate-text">Покупайте российские и иностранные акции, облигации, валюту
+									и
+									другие
+									продукты в простом и удобном мобильном приложении для iOS
+									и Android.</p>
+								<div class="download__file">
+									<a class="link link-reiterate" href="#"><img class="images-reiterate" src="assets/pictures/gold21.png"
+											alt="vk">Скачать для
+										ios</a><a class="link link-reiterate" href="#"><img class="images-reiterate"
+											src="assets/pictures/Group64.png" alt="wk">Скачать для
+										Android</a>
+								</div>
+							</div>
+						</div>
+						<div class="order-phone__manual">
+							<div class="manual__receive">
+								<div class="manual__receive--content">
+									<h2 class="receive-text title-genl">Мне только спросит</h2>
+									<p class="receive-text text-genl">Собрали в подсказках ответы на популярные вопросы
+										об инвестициях и сервисе</p>
+								</div>
+								<form class="receive__cked" action="#">
+									<p>
+										<button class="recevebtn  btn button">Получить консультацию</button>
+									</p>
+								</form>
+
+							</div>
+							<div class="manual__questions">
+
+								<p class="questions__content"><a class="questions__link link" href="#c"><img
+											src="assets/pictures/www222.png" alt="?"></a><span class="spantext">Есть ли плата за
+										обслуживание?</span>
+									<span class="spanimg"><img src="assets/pictures/www96.png" alt="gl"></span>
+								</p>
+								<p class="questions__content"><a class="questions__link link" href="#c"><img
+											src="assets/pictures/www222.png" alt="?"></a><span class="spantext">Как вывести деньги со
+										счёта?</span>
+									<span class="spanimg"><img src="assets/pictures/www96.png" alt="gl"></span>
+								</p>
+								<p class="questions__content"><a class="questions__link link" href="#c"><img
+											src="assets/pictures/www222.png" alt="?"></a><span class="spantext">Какие налоги?</span>
+									<span class="spanimg"><img src="assets/pictures/www96.png" alt="gl"></span>
+								</p>
+								<p class="questions__content"><a class="questions__link link" href="#c"><img
+											src="assets/pictures/www222.png" alt="?"></a><span class="spantext">Где хранятся деньги?</span>
+									<span class="spanimg"><img src="assets/pictures/www96.png" alt="gl"></span>
+								</p>
+								<p class="questions__content"><a class="questions__link link" href="#c"><img
+											src="assets/pictures/www222.png" alt="?"></a><span class="spantext">Как открыть счёт?</span>
+									<span class="spanimg"><img src="assets/pictures/www96.png" alt="gl"></span>
+								</p>
+								<p class="questions__content"><a class="questions__link link " href="#c"><img
+											src="assets/pictures/www222.png" alt=""></a><span class="spantext">Как пополнить счёт?</span>
+									<span class="spanimg"><img src="assets/pictures/www96.png" alt="?"></span>
+								</p>
+								<p class="questions__content"><a class="questions__link link visited" href="#c"><img
+											src="assets/pictures/www222.png" alt=""></a><span class="spantext">Что купить?</span>
+									<span class="spanimg visited"><img src="assets/pictures/www96.png" alt="gl"></span>
+								</p>
+								<p>#c</p>
+							</div>
+						</div>
+			</section>
+			<section>
+				<div class="bid">
+					<div class="bid__container">
+						<h2 class="bid__title title-genl">Оставьте заявку на открытие счёта </h2>
+						<div class="bid__box">
+							<div class="bid__depot-dox">
+								<span class="ll-img"><img src="assets/pictures/eee111.png" alt=""></span>
+								<div class="box-xl">
+									<a class="xxx-img" href="#"><img src="assets/pictures/MaskKK.png" alt="im"></a>
+									<span class="xxxll-img"><img src="assets/pictures/EllipseO.png" alt="kk">
+										<img src="assets/pictures/Line10.png" alt="li">
+										<img src="assets/pictures/Polygon5.png" alt="tr"></span>
+								</div>
+								<h4 class=" bid-xtitle ">Заполните заявку онлайн</h4>
+								<p class="bid-text text-genl">Необходимо: имя, номер телефона, e-mail и пароль
+									для входа.</p>
+							</div>
+							<div class="bid__depot-dox">
+								<span class="ll-img"><img src="assets/pictures/eee2.png" alt="3"></span>
+								<div class="box-xl">
+									<a class="xxx-img" href="#"><img src="assets/pictures/Group103.png" alt="mn"></a>
+									<span class="xxxll-img"><img src="assets/pictures/EllipseO.png" alt="kk">
+										<img src="assets/pictures/Line10.png" alt="li">
+										<img src="assets/pictures/Polygon5.png" alt="tr"></span>
+								</div>
+								<h4 class=" bid-xtitle ">Откроем счет
+									за 5 минут</h4>
+								<p class="bid-text text-genl">Вы можете использовать несколько платежных систем для пополнения депозита,
+									включая систему MidexPay и кошелек Bitcoin.</p>
+							</div>
+							<div class="bid__depot-dox">
+								<span class="ll-img"><img src="assets/pictures/eee3.png" alt="3"></span>
+								<div class="box-xl">
+									<a class="xxx-img" href="#"><img src="assets/pictures/Group104.png" alt="$"></a>
+
+								</div>
+								<h4 class=" bid-xtitle ">Пополните счёт
+									и начните инвестировать</h4>
+								<p class="bid-text text-genl">Сразу после пополнения депозита будет доступна торговля через веб-терминал
+									или мобильную платформу.</p>
+							</div>
+						</div>
+					</div>
+					<div class="backgraund-form">
+						<form class="bid__form" action="#" method="post">
+							<p> <input class="bid-input" type="text" name="username" placeholder="Ваше имя">
+								<input class="bid-input" type="tel" name="phone" placeholder="+7... ... .. ..">
+								<input class="bid-input" type="email" name="login" placeholder="Email:">
+								<button class="btn button">Оставить заявку</button>
+							</p>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer">
+				<div class="footer__container">
+					<div class="footer__box-left">
+						<div class="footer__logo logo">
+							<a class="logo__link" href="#">
+								<img class="logo__images" src="assets/pictures/Untitled2221.png" alt="logo" />
+							</a>
+						</div>
+						<span class="footer__social">
+							<a class="social__link link" href="#"><img src="assets/pictures/iconInst.png" alt="inst"></a>
+							<a class="social__link link" href="#"><img src="assets/pictures/iconFeis.png" alt="feis"></a>
+							<a class="social__link link" href="#"><img src="assets/pictures/ikonVK.png" alt="vk"></a>
+							<a class="social__link link" href="#"><img src="assets/pictures/iconYahdex.png" alt="yd"></a>
+
+						</span>
+						<a class="footer__secret-link link
+							" href="#">Политика передачи данных</a>
+					</div>
+					<div class="footer__box-right">
+						<p class="footer-text text-genl">Звонок по России бесплатный</p>
+						<a class="foter__link-br link" href="tel:8 (495) 212-16-71">8 (495) 212-16-71</a>
+
+						<button class="buttom__link link">
+							<a href="tel:8 (495) 212-16-71">Перезвоните мне</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			var slider = document.getElementById("myRange");
+			var output = document.getElementById("demo");
+			output.innerHTML = slider.value;
+
+			slider.oninput = function () {
+				output.innerHTML = this.value;
+			}
+		</script>
+	</div>
+</body>
+
+
 </html>
